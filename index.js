@@ -3,7 +3,7 @@ const TeleBot = require('telebot');
 const { Encryptor } = require('stegano');
 
 const bot = new TeleBot({
-  token: process.env.TELEGRAM_TOKEN,
+  token: process.env.TELEGRAM_API_TOKEN,
 });
 
 const depthMap = new Map();
