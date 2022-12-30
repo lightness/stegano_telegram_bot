@@ -76,3 +76,5 @@ bot.on(['document'], (msg) => {
 
 // start polling
 bot.start();
+
+console.log('Stegano bot started!')
